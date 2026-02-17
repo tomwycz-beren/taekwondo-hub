@@ -84,6 +84,41 @@ export const achievements = [
   { year: "2023", event: "City Tournament", result: "Overall Team Champions" },
 ];
 
+export const upcomingEvents = [
+  {
+    id: 1,
+    date: "2026-03-15",
+    title: "Regional Taekwondo Championship",
+    location: "City Sports Arena",
+    description: "All belt levels welcome. Registration closes March 1.",
+    type: "Competition",
+  },
+  {
+    id: 2,
+    date: "2026-04-05",
+    title: "Belt Promotion Test",
+    location: "Main Hall",
+    description: "Quarterly belt grading for eligible students.",
+    type: "Grading",
+  },
+  {
+    id: 3,
+    date: "2026-04-18",
+    title: "Spring Training Camp",
+    location: "Main Hall & Training Room B",
+    description: "Intensive 2-day camp focusing on poomsae and sparring.",
+    type: "Camp",
+  },
+  {
+    id: 4,
+    date: "2026-05-10",
+    title: "National Open Championship",
+    location: "National Sports Center",
+    description: "Our competition team represents at the national level.",
+    type: "Competition",
+  },
+];
+
 export const galleryImages = [
   { src: "/placeholder.svg", alt: "Training session", caption: "Daily training session" },
   { src: "/placeholder.svg", alt: "Competition", caption: "Regional Championship 2025" },
