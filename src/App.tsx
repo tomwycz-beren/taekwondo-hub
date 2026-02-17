@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Schedule from "./pages/Schedule";
+import CalendarPage from "./pages/Calendar";
 import Team from "./pages/Team";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
@@ -28,6 +29,7 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />
               <Route path="/schedule" element={<Schedule />} />
+              <Route path="/calendar" element={<CalendarPage />} />
               <Route path="/team" element={<Team />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/contact" element={<Contact />} />
