@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CalendarDays, Users, Trophy, ArrowRight, MapPin, Clock } from "lucide-react";
-import { newsItems, upcomingEvents } from "@/data/siteData";
+import { CalendarDays, Users, Trophy, ArrowRight } from "lucide-react";
+import { newsItems } from "@/data/siteData";
 import heroBanner from "@/assets/hero-banner.jpg";
 
 const Index = () => {
@@ -55,33 +55,20 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Upcoming Events */}
+      {/* Calendar */}
       <section className="bg-secondary py-16">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl text-center mb-10">UPCOMING EVENTS</h2>
-          <div className="grid gap-4 md:grid-cols-2">
-            {upcomingEvents.map((event) => (
-              <Card key={event.id} className="group hover:shadow-lg transition-shadow">
-                <CardContent className="p-6">
-                  <div className="flex items-center gap-3 mb-3">
-                    <Badge variant="secondary" className="bg-accent/10 text-accent border-0">{event.type}</Badge>
-                  </div>
-                  <h3 className="text-xl mb-2">{event.title}</h3>
-                  <p className="text-sm text-muted-foreground mb-3">{event.description}</p>
-                  <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
-                    <span className="flex items-center gap-1">
-                      <Clock className="h-3.5 w-3.5" />
-                      {new Date(event.date).toLocaleDateString("en-US", { weekday: "short", month: "long", day: "numeric", year: "numeric" })}
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <MapPin className="h-3.5 w-3.5" />
-                      {event.location}
-                    </span>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+          <h2 className="text-4xl md:text-5xl text-center mb-10">CALENDAR</h2>
+          <div className="rounded-lg overflow-hidden border bg-card shadow-sm">
+            <iframe
+              src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=0"
+              className="w-full h-[500px] md:h-[600px] border-0"
+              title="Team Calendar"
+            />
           </div>
+          <p className="text-xs text-muted-foreground text-center mt-4">
+            Replace the calendar ID in the embed URL with your team's Google Calendar to show your own events.
+          </p>
         </div>
       </section>
 
