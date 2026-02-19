@@ -62,16 +62,18 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl text-center mb-10">LATEST NEWS</h2>
           <div className="grid gap-4 md:grid-cols-2">
             {newsItems.map((item) => (
-              <Card key={item.id}>
-                <CardContent className="p-6">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Badge variant="secondary" className="bg-accent/10 text-accent border-0">{item.tag}</Badge>
-                    <span className="text-xs text-muted-foreground">{item.date}</span>
-                  </div>
-                  <h3 className="text-xl mb-1">{item.title}</h3>
-                  <p className="text-sm text-muted-foreground">{item.summary}</p>
-                </CardContent>
-              </Card>
+              <Link key={item.id} to={`/news/${item.slug}`} className="block group">
+                <Card className="h-full transition-shadow group-hover:shadow-lg">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <Badge variant="secondary" className="bg-accent/10 text-accent border-0">{item.tag}</Badge>
+                      <span className="text-xs text-muted-foreground">{item.date}</span>
+                    </div>
+                    <h3 className="text-xl mb-1 group-hover:text-accent transition-colors">{item.title}</h3>
+                    <p className="text-sm text-muted-foreground">{item.summary}</p>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>
