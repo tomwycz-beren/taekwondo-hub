@@ -11,10 +11,10 @@ const NewsDetail = () => {
   if (!item) {
     return (
       <main className="container py-20 text-center">
-        <h1 className="text-4xl mb-4">Article Not Found</h1>
-        <p className="text-muted-foreground mb-6">The news article you're looking for doesn't exist.</p>
+        <h1 className="text-4xl mb-4">Artykuł nie znaleziony</h1>
+        <p className="text-muted-foreground mb-6">Szukany artykuł nie istnieje.</p>
         <Button asChild variant="outline">
-          <Link to="/">Back to Home</Link>
+          <Link to="/">Powrót na stronę główną</Link>
         </Button>
       </main>
     );
@@ -23,7 +23,7 @@ const NewsDetail = () => {
   return (
     <main className="container max-w-3xl py-12">
       <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8">
-        <ArrowLeft className="h-4 w-4" /> Back to Home
+        <ArrowLeft className="h-4 w-4" /> Powrót na stronę główną
       </Link>
 
       <div className="flex items-center gap-3 mb-4">
@@ -39,7 +39,7 @@ const NewsDetail = () => {
             <img
               key={i}
               src={src}
-              alt={`${item.title} - image ${i + 1}`}
+              alt={`${item.title} - zdjęcie ${i + 1}`}
               className="w-full rounded-lg aspect-video object-cover bg-muted"
               loading="lazy"
             />

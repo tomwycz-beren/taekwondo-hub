@@ -1,39 +1,38 @@
 const About = () => (
   <main>
-    {/* Hero */}
     <section className="bg-primary text-primary-foreground py-20">
       <div className="container text-center">
-        <h1 className="text-5xl md:text-7xl mb-4">ABOUT OUR TEAM</h1>
+        <h1 className="text-5xl md:text-7xl mb-4">O NASZYM ZESPOLE</h1>
         <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-          Discover our history, philosophy, and what makes our Taekwondo community special.
+          Poznaj naszą historię, filozofię i to, co czyni naszą społeczność taekwondo wyjątkową.
         </p>
       </div>
     </section>
 
     <section className="container py-16 max-w-3xl">
-      <h2 className="text-3xl mb-4">Our Story</h2>
+      <h2 className="text-3xl mb-4">Nasza historia</h2>
       <p className="text-muted-foreground mb-6 leading-relaxed">
-        Founded in 2005, our team has grown from a small group of enthusiasts to one of the region's most respected Taekwondo clubs. We are affiliated with World Taekwondo and committed to developing athletes of all ages and skill levels.
+        Założony w 2005 roku, nasz zespół wyrósł z małej grupy entuzjastów w jeden z najbardziej szanowanych klubów taekwondo w regionie. Jesteśmy zrzeszeni w World Taekwondo i zobowiązani do rozwoju sportowców w każdym wieku i na każdym poziomie zaawansowania.
       </p>
 
-      <h2 className="text-3xl mb-4">What is Taekwondo?</h2>
+      <h2 className="text-3xl mb-4">Czym jest Taekwondo?</h2>
       <p className="text-muted-foreground mb-6 leading-relaxed">
-        Taekwondo is a Korean martial art known for its emphasis on head-height kicks, jumping and spinning kicks, and fast kicking techniques. It combines combat and self-defense with sport, exercise, and philosophy. "Tae" means foot, "Kwon" means fist, and "Do" means the way — the way of the foot and fist.
+        Taekwondo to koreańska sztuka walki znana z naciskiem na kopnięcia na wysokość głowy, kopnięcia z wyskoku i obrotu oraz szybkie techniki kopania. Łączy walkę i samoobronę ze sportem, ćwiczeniami i filozofią. „Tae" oznacza stopę, „Kwon" oznacza pięść, a „Do" oznacza drogę — drogę stopy i pięści.
       </p>
 
-      <h2 className="text-3xl mb-4">Our Philosophy</h2>
+      <h2 className="text-3xl mb-4">Nasza filozofia</h2>
       <p className="text-muted-foreground mb-6 leading-relaxed">
-        We believe Taekwondo is more than a sport. It's a path to personal growth that builds discipline, respect, perseverance, and self-confidence. Our training emphasizes the five tenets of Taekwondo: Courtesy, Integrity, Perseverance, Self-Control, and Indomitable Spirit.
+        Wierzymy, że taekwondo to więcej niż sport. To droga do rozwoju osobistego, która buduje dyscyplinę, szacunek, wytrwałość i pewność siebie. Nasz trening podkreśla pięć zasad taekwondo: Uprzejmość, Uczciwość, Wytrwałość, Samokontrola i Niezłomny Duch.
       </p>
 
-      <h2 className="text-3xl mb-4">Why Join Us?</h2>
+      <h2 className="text-3xl mb-4">Dlaczego warto do nas dołączyć?</h2>
       <ul className="space-y-3 text-muted-foreground">
         {[
-          "Experienced, certified coaches with international competition backgrounds",
-          "Classes for all ages — from 5 years old to adults",
-          "A supportive and welcoming community",
-          "Regular competitions and belt promotion opportunities",
-          "Modern training facility with professional equipment",
+          "Doświadczeni, certyfikowani trenerzy z międzynarodowym doświadczeniem zawodniczym",
+          "Zajęcia dla wszystkich grup wiekowych — od 5 lat do dorosłych",
+          "Wspierająca i przyjazna społeczność",
+          "Regularne zawody i możliwości awansu na kolejne pasy",
+          "Nowoczesny obiekt treningowy z profesjonalnym wyposażeniem",
         ].map((item, i) => (
           <li key={i} className="flex items-start gap-2">
             <span className="text-accent font-bold mt-0.5">✓</span>

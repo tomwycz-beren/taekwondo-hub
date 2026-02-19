@@ -13,21 +13,21 @@ const Index = () => {
       <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <img
           src={heroBanner}
-          alt="Taekwondo team training session"
+          alt="Trening drużyny taekwondo"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-primary/70" />
         <div className="relative z-10 text-center text-primary-foreground container">
-          <h1 className="text-6xl md:text-8xl mb-4">DISCIPLINE. STRENGTH. SPIRIT.</h1>
+          <h1 className="text-6xl md:text-8xl mb-4">DYSCYPLINA. SIŁA. DUCH.</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-primary-foreground/80">
-            Join our Taekwondo family — building champions on and off the mat since 2005.
+            Dołącz do naszej rodziny taekwondo — kształtujemy mistrzów na macie i poza nią od 2005 roku.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link to="/schedule">View Schedule</Link>
+              <Link to="/schedule">Zobacz harmonogram</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10">
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact">Skontaktuj się</Link>
             </Button>
           </div>
         </div>
@@ -37,9 +37,9 @@ const Index = () => {
       <section className="container py-16">
         <div className="grid gap-6 md:grid-cols-3">
           {[
-            { icon: CalendarDays, title: "Classes & Schedule", desc: "Find the right class for your age and skill level.", to: "/schedule" },
-            { icon: Users, title: "Meet the Team", desc: "Our experienced coaches and dedicated athletes.", to: "/team" },
-            { icon: Trophy, title: "Achievements", desc: "Celebrating our medals and competition results.", to: "/gallery" },
+            { icon: CalendarDays, title: "Zajęcia i harmonogram", desc: "Znajdź odpowiednie zajęcia dla swojego wieku i poziomu.", to: "/schedule" },
+            { icon: Users, title: "Poznaj zespół", desc: "Nasi doświadczeni trenerzy i oddani sportowcy.", to: "/team" },
+            { icon: Trophy, title: "Osiągnięcia", desc: "Świętujemy nasze medale i wyniki zawodów.", to: "/gallery" },
           ].map((item) => (
             <Card key={item.title} className="group hover:shadow-lg transition-shadow">
               <CardContent className="p-6 flex flex-col items-center text-center">
@@ -47,7 +47,7 @@ const Index = () => {
                 <h3 className="text-2xl mb-2">{item.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4">{item.desc}</p>
                 <Link to={item.to} className="text-accent text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
-                  Learn More <ArrowRight className="h-4 w-4" />
+                  Dowiedz się więcej <ArrowRight className="h-4 w-4" />
                 </Link>
               </CardContent>
             </Card>
@@ -55,11 +55,10 @@ const Index = () => {
         </div>
       </section>
 
-
       {/* News Feed */}
       <section className="py-16">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl text-center mb-10">LATEST NEWS</h2>
+          <h2 className="text-4xl md:text-5xl text-center mb-10">AKTUALNOŚCI</h2>
           <div className="grid gap-4 md:grid-cols-2">
             {newsItems.map((item) => (
               <Link key={item.id} to={`/news/${item.slug}`} className="block group">

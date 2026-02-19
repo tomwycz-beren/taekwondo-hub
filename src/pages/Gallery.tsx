@@ -7,16 +7,15 @@ const Gallery = () => (
   <main>
     <section className="bg-primary text-primary-foreground py-20">
       <div className="container text-center">
-        <h1 className="text-5xl md:text-7xl mb-4">GALLERY & ACHIEVEMENTS</h1>
+        <h1 className="text-5xl md:text-7xl mb-4">GALERIA I OSIĄGNIĘCIA</h1>
         <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-          Moments from our training, competitions, and celebrations.
+          Chwile z naszych treningów, zawodów i uroczystości.
         </p>
       </div>
     </section>
 
-    {/* Gallery Grid */}
     <section className="container py-16">
-      <h2 className="text-4xl mb-8">PHOTO GALLERY</h2>
+      <h2 className="text-4xl mb-8">GALERIA ZDJĘĆ</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {galleryImages.map((img, i) => (
           <Card key={i} className="overflow-hidden group">
@@ -30,23 +29,22 @@ const Gallery = () => (
         ))}
       </div>
       <p className="text-center text-sm text-muted-foreground mt-6">
-        Replace these placeholder images with your own team photos!
+        Zamień te przykładowe zdjęcia na własne zdjęcia zespołu!
       </p>
     </section>
 
-    {/* Achievements */}
     <section className="bg-secondary py-16">
       <div className="container">
         <div className="flex items-center gap-3 mb-8">
           <Trophy className="h-8 w-8 text-accent" />
-          <h2 className="text-4xl">ACHIEVEMENTS</h2>
+          <h2 className="text-4xl">OSIĄGNIĘCIA</h2>
         </div>
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className="font-bold">Year</TableHead>
-              <TableHead className="font-bold">Event</TableHead>
-              <TableHead className="font-bold">Result</TableHead>
+              <TableHead className="font-bold">Rok</TableHead>
+              <TableHead className="font-bold">Wydarzenie</TableHead>
+              <TableHead className="font-bold">Wynik</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
