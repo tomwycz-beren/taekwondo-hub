@@ -71,10 +71,9 @@ const Contact = () => {
 
           <div className="space-y-6">
             {[
-              { icon: MapPin, title: "Adres", text: "ul. Sportowa 123\n00-001 Warszawa" },
-              { icon: Clock, title: "Godziny treningów", text: "Pon / Śr / Pt: 16:00 – 21:00\nCzwartek: 18:00 – 19:30\nSobota: 10:00 – 13:30" },
-              { icon: Phone, title: "Telefon", text: "+48 123 456 789" },
-              { icon: Mail, title: "Email", text: "info@tkdteam.pl" },
+              { icon: MapPin, title: "Adres", text: "Miejska Hala Sportowa (sala na 1 piętrze)\n17 Stycznia 60B, 06-400 Ciechanów " },
+              { icon: Phone, title: "Telefon", text: "+48 515 132 442" },
+              { icon: Mail, title: "Email", text: "wtf.promyk@poczta.fm" },
             ].map((item) => (
               <Card key={item.title}>
                 <CardContent className="p-4 flex gap-4 items-start">
