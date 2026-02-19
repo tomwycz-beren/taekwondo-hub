@@ -1,187 +1,187 @@
 export const newsItems = [
   {
     id: 1,
-    slug: "spring-competition-registration",
+    slug: "zapisy-na-wiosenne-zawody",
     date: "2026-02-10",
-    title: "Spring Competition Registration Open",
-    summary: "Sign up now for the Regional Taekwondo Championship on March 15. All belt levels welcome!",
-    tag: "Competition",
-    content: `The Regional Taekwondo Championship is back and bigger than ever! This year's competition will be held on **March 15** at the City Sports Arena, featuring divisions for all belt levels from white to black belt.
+    title: "Zapisy na wiosenne zawody",
+    summary: "Zapisz się na Regionalne Mistrzostwa Taekwondo 15 marca. Zapraszamy wszystkie stopnie!",
+    tag: "Zawody",
+    content: `Regionalne Mistrzostwa Taekwondo wracają i będą większe niż kiedykolwiek! Tegoroczne zawody odbędą się **15 marca** w Miejskiej Hali Sportowej, z podziałem na wszystkie stopnie od białego do czarnego pasa.
 
-**What to expect:**
-- Individual poomsae (forms) competition
-- Sparring matches in weight-class divisions
-- Team poomsae showcase
-- Special demonstrations by our competition squad
+**Czego się spodziewać:**
+- Indywidualne poomsae (układy formalne)
+- Walki sparingowe w kategoriach wagowych
+- Pokaz poomsae drużynowego
+- Specjalne pokazy naszej kadry zawodniczej
 
-Registration is open to all current members in good standing. The entry fee is $35 per event, with a discounted bundle of $55 for two events. Deadline to register is **March 1**.
+Rejestracja jest otwarta dla wszystkich aktywnych członków klubu. Opłata startowa wynosi 150 zł za konkurencję, z pakietem za 250 zł za dwie konkurencje. Termin rejestracji upływa **1 marca**.
 
-Our coaching staff will be running extra preparation sessions every Thursday leading up to the event. Make sure to attend if you plan to compete!`,
+Nasz sztab trenerski będzie prowadził dodatkowe sesje przygotowawcze w każdy czwartek przed zawodami. Koniecznie weź udział, jeśli planujesz startować!`,
     images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
     id: 2,
-    slug: "belt-promotion-ceremony",
+    slug: "ceremonia-promocji-pasow",
     date: "2026-02-05",
-    title: "Belt Promotion Ceremony",
-    summary: "Congratulations to 12 students who earned their next belt rank last weekend!",
-    tag: "Achievement",
-    content: `We are proud to announce that **12 students** successfully passed their belt promotion tests last weekend! The grading panel was led by Master Park Jin-ho with guest examiner Master Yoon from the National Taekwondo Association.
+    title: "Ceremonia promocji pasów",
+    summary: "Gratulacje dla 12 uczniów, którzy zdobyli kolejny stopień w ostatni weekend!",
+    tag: "Osiągnięcia",
+    content: `Z dumą ogłaszamy, że **12 uczniów** pomyślnie zdało egzaminy na kolejny pas w ostatni weekend! Komisji egzaminacyjnej przewodniczył Mistrz Park Jin-ho z gościnnym egzaminatorem Mistrzem Yoon z Krajowego Związku Taekwondo.
 
-**Promotions awarded:**
-- 3 students promoted to Yellow Belt
-- 4 students promoted to Green Belt
-- 2 students promoted to Blue Belt
-- 2 students promoted to Red Belt
-- 1 student promoted to 1st Dan Black Belt — congratulations to James Thompson!
+**Przyznane promocje:**
+- 3 uczniów awansowało na żółty pas
+- 4 uczniów awansowało na zielony pas
+- 2 uczniów awansowało na niebieski pas
+- 2 uczniów awansowało na czerwony pas
+- 1 uczeń awansował na 1 Dan czarnego pasa — gratulacje dla Jakuba Kowalskiego!
 
-Each student demonstrated excellent technique, knowledge of their required poomsae, and strong sparring skills. The ceremony concluded with a group photo and refreshments.
+Każdy uczeń wykazał się doskonałą techniką, znajomością wymaganych poomsae oraz silnymi umiejętnościami sparingowymi. Ceremonia zakończyła się wspólnym zdjęciem i poczęstunkiem.
 
-The next belt promotion test is scheduled for **April 5**. Speak with your coach about eligibility requirements.`,
+Następny egzamin na pas zaplanowany jest na **5 kwietnia**. Porozmawiaj ze swoim trenerem o wymaganiach kwalifikacyjnych.`,
     images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
     id: 3,
-    slug: "new-kids-class-starting",
+    slug: "nowe-zajecia-dla-dzieci",
     date: "2026-01-28",
-    title: "New Kids Class Starting",
-    summary: "A new beginners class for ages 5-8 starts every Saturday at 10 AM. First session free!",
-    tag: "Classes",
-    content: `We're excited to launch a brand-new **Kids Beginners Class** for children aged 5–8! The class runs every Saturday at 10:00 AM in the Main Hall and is led by Coach Maria Santos.
+    title: "Nowe zajęcia dla dzieci",
+    summary: "Nowe zajęcia dla początkujących w wieku 5-8 lat w każdą sobotę o 10:00. Pierwsza lekcja gratis!",
+    tag: "Zajęcia",
+    content: `Z radością ogłaszamy uruchomienie nowych **zajęć dla początkujących dzieci** w wieku 5–8 lat! Zajęcia odbywają się w każdą sobotę o 10:00 w Sali Głównej i prowadzone są przez trenerkę Marię Santos.
 
-**What the program covers:**
-- Basic Taekwondo stances and movements
-- Age-appropriate stretching and fitness
-- Fun games that build coordination and discipline
-- Introduction to Taekwondo etiquette and Korean terminology
+**Program obejmuje:**
+- Podstawowe postawy i ruchy taekwondo
+- Rozciąganie i ćwiczenia dostosowane do wieku
+- Zabawy rozwijające koordynację i dyscyplinę
+- Wprowadzenie do etykiety taekwondo i terminologii koreańskiej
 
-The first session is **completely free** — just bring comfortable clothing and a water bottle. After the trial, monthly membership for kids is $60.
+Pierwsza sesja jest **całkowicie bezpłatna** — wystarczy wygodny strój i butelka wody. Po lekcji próbnej miesięczna składka dla dzieci wynosi 250 zł.
 
-Taekwondo is a fantastic way for young children to build confidence, learn self-discipline, and stay active. Our kids program emphasizes respect, focus, and having fun while learning a lifelong skill.
+Taekwondo to fantastyczny sposób dla małych dzieci na budowanie pewności siebie, naukę samodyscypliny i aktywności fizycznej. Nasz program dla dzieci kładzie nacisk na szacunek, koncentrację i zabawę podczas nauki umiejętności na całe życie.
 
-Contact us to reserve a spot — spaces are limited to 15 students per class to ensure personalized attention.`,
+Skontaktuj się z nami, aby zarezerwować miejsce — liczba miejsc ograniczona do 15 uczniów na zajęcia, aby zapewnić indywidualne podejście.`,
     images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
     id: 4,
-    slug: "winter-camp-recap",
+    slug: "podsumowanie-obozu-zimowego",
     date: "2026-01-20",
-    title: "Winter Camp Recap",
-    summary: "Our 3-day intensive training camp was a huge success with 40+ participants.",
-    tag: "Event",
-    content: `Our annual **Winter Training Camp** took place over the long weekend and was a resounding success, with over 40 participants from our club and three visiting clubs.
+    title: "Podsumowanie obozu zimowego",
+    summary: "Nasz 3-dniowy intensywny obóz treningowy zakończył się wielkim sukcesem z ponad 40 uczestnikami.",
+    tag: "Wydarzenie",
+    content: `Nasz coroczny **Zimowy Obóz Treningowy** odbył się w długi weekend i zakończył się ogromnym sukcesem, z ponad 40 uczestnikami z naszego klubu i trzech zaprzyjaźnionych klubów.
 
-**Camp highlights:**
-- Day 1: Fundamentals masterclass with Master Park — focusing on perfecting basic kicks and blocks
-- Day 2: Advanced sparring workshop and competition simulation rounds
-- Day 3: Poomsae intensive and a fun team-building obstacle course
+**Najważniejsze momenty obozu:**
+- Dzień 1: Kurs mistrzowski z Mistrzem Parkiem — skupienie na doskonaleniu podstawowych kopnięć i bloków
+- Dzień 2: Zaawansowany warsztat sparingowy i symulacja rund turniejowych
+- Dzień 3: Intensywne poomsae i zabawowy tor przeszkód integracyjny
 
-Guest instructor **Master Lee Sang-hyun** (5th Dan) from Seoul joined us for a special self-defense seminar that was a huge hit with attendees of all levels.
+Gościnny instruktor **Mistrz Lee Sang-hyun** (5 Dan) z Seulu dołączył do nas na specjalnym seminarium samoobrony, które cieszyło się ogromnym zainteresowaniem uczestników na wszystkich poziomach.
 
-The camp concluded with an awards ceremony recognizing the Most Improved, Best Attitude, and Top Performer in each age group. Thank you to all the coaches, volunteers, and families who made this event possible.
+Obóz zakończył się ceremonią wręczenia nagród w kategoriach: Największy Postęp, Najlepsza Postawa i Najlepszy Zawodnik w każdej grupie wiekowej. Dziękujemy wszystkim trenerom, wolontariuszom i rodzinom, które umożliwiły to wydarzenie.
 
-Stay tuned for details on the **Spring Training Camp** coming in April!`,
+Śledźcie informacje o **Wiosennym Obozie Treningowym** w kwietniu!`,
     images: ["/placeholder.svg", "/placeholder.svg"],
   },
 ];
 
 export const schedule = [
-  { day: "Monday", time: "16:00 – 17:00", class: "Kids (5–8)", level: "All Levels", location: "Main Hall" },
-  { day: "Monday", time: "17:30 – 19:00", class: "Juniors (9–14)", level: "All Levels", location: "Main Hall" },
-  { day: "Monday", time: "19:30 – 21:00", class: "Adults", level: "Beginners", location: "Main Hall" },
-  { day: "Wednesday", time: "16:00 – 17:00", class: "Kids (5–8)", level: "All Levels", location: "Main Hall" },
-  { day: "Wednesday", time: "17:30 – 19:00", class: "Juniors (9–14)", level: "All Levels", location: "Main Hall" },
-  { day: "Wednesday", time: "19:30 – 21:00", class: "Adults", level: "Advanced", location: "Main Hall" },
-  { day: "Thursday", time: "18:00 – 19:30", class: "Competition Team", level: "Advanced", location: "Training Room B" },
-  { day: "Friday", time: "16:00 – 17:00", class: "Kids (5–8)", level: "All Levels", location: "Main Hall" },
-  { day: "Friday", time: "17:30 – 19:00", class: "Juniors (9–14)", level: "All Levels", location: "Main Hall" },
-  { day: "Friday", time: "19:30 – 21:00", class: "Adults", level: "All Levels", location: "Main Hall" },
-  { day: "Saturday", time: "10:00 – 11:30", class: "Open Training", level: "All Levels", location: "Main Hall" },
-  { day: "Saturday", time: "12:00 – 13:30", class: "Poomsae Practice", level: "Intermediate+", location: "Training Room B" },
+  { day: "Poniedziałek", time: "16:00 – 17:00", class: "Dzieci (5–8)", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Poniedziałek", time: "17:30 – 19:00", class: "Juniorzy (9–14)", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Poniedziałek", time: "19:30 – 21:00", class: "Dorośli", level: "Początkujący", location: "Sala Główna" },
+  { day: "Środa", time: "16:00 – 17:00", class: "Dzieci (5–8)", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Środa", time: "17:30 – 19:00", class: "Juniorzy (9–14)", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Środa", time: "19:30 – 21:00", class: "Dorośli", level: "Zaawansowani", location: "Sala Główna" },
+  { day: "Czwartek", time: "18:00 – 19:30", class: "Kadra zawodnicza", level: "Zaawansowani", location: "Sala treningowa B" },
+  { day: "Piątek", time: "16:00 – 17:00", class: "Dzieci (5–8)", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Piątek", time: "17:30 – 19:00", class: "Juniorzy (9–14)", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Piątek", time: "19:30 – 21:00", class: "Dorośli", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Sobota", time: "10:00 – 11:30", class: "Trening otwarty", level: "Wszystkie poziomy", location: "Sala Główna" },
+  { day: "Sobota", time: "12:00 – 13:30", class: "Ćwiczenia poomsae", level: "Średniozaawansowani+", location: "Sala treningowa B" },
 ];
 
 export const coaches = [
   {
-    name: "Master Park Jin-ho",
-    role: "Head Coach",
-    belt: "6th Dan Black Belt",
-    bio: "Over 25 years of experience in Taekwondo instruction. Former national team member and multiple-time championship medalist.",
+    name: "Mistrz Park Jin-ho",
+    role: "Główny trener",
+    belt: "6 Dan czarny pas",
+    bio: "Ponad 25 lat doświadczenia w nauczaniu taekwondo. Były członek kadry narodowej i wielokrotny medalista mistrzostw.",
     image: "/placeholder.svg",
   },
   {
     name: "Sarah Kim",
-    role: "Assistant Coach",
-    belt: "4th Dan Black Belt",
-    bio: "Specializes in poomsae and youth instruction. Certified World Taekwondo referee with 10+ years coaching experience.",
+    role: "Asystentka trenera",
+    belt: "4 Dan czarny pas",
+    bio: "Specjalizuje się w poomsae i szkoleniu młodzieży. Certyfikowana sędzia World Taekwondo z ponad 10-letnim doświadczeniem trenerskim.",
     image: "/placeholder.svg",
   },
   {
     name: "David Lee",
-    role: "Competition Coach",
-    belt: "3rd Dan Black Belt",
-    bio: "Focuses on sparring technique and competition preparation. Led our team to 15 regional medals last season.",
+    role: "Trener kadry zawodniczej",
+    belt: "3 Dan czarny pas",
+    bio: "Skupia się na technice sparingowej i przygotowaniu do zawodów. Poprowadził nasz zespół do 15 medali regionalnych w ostatnim sezonie.",
     image: "/placeholder.svg",
   },
   {
     name: "Maria Santos",
-    role: "Kids Program Coach",
-    belt: "2nd Dan Black Belt",
-    bio: "Passionate about introducing young students to martial arts. Combines fun activities with fundamental Taekwondo training.",
+    role: "Trenerka programu dziecięcego",
+    belt: "2 Dan czarny pas",
+    bio: "Pasjonuje się wprowadzaniem młodych uczniów w świat sztuk walki. Łączy zabawę z podstawowym treningiem taekwondo.",
     image: "/placeholder.svg",
   },
 ];
 
 export const achievements = [
-  { year: "2025", event: "National Championship", result: "3 Gold, 2 Silver, 4 Bronze" },
-  { year: "2025", event: "Regional Poomsae Cup", result: "Team Gold" },
-  { year: "2024", event: "State Championship", result: "5 Gold, 3 Silver" },
-  { year: "2024", event: "International Open", result: "1 Gold, 1 Bronze" },
-  { year: "2023", event: "National Championship", result: "2 Gold, 4 Silver, 3 Bronze" },
-  { year: "2023", event: "City Tournament", result: "Overall Team Champions" },
+  { year: "2025", event: "Mistrzostwa Krajowe", result: "3 złote, 2 srebrne, 4 brązowe" },
+  { year: "2025", event: "Regionalny Puchar Poomsae", result: "Złoto drużynowe" },
+  { year: "2024", event: "Mistrzostwa Wojewódzkie", result: "5 złotych, 3 srebrne" },
+  { year: "2024", event: "Turniej Międzynarodowy", result: "1 złoty, 1 brązowy" },
+  { year: "2023", event: "Mistrzostwa Krajowe", result: "2 złote, 4 srebrne, 3 brązowe" },
+  { year: "2023", event: "Turniej Miejski", result: "Drużynowi mistrzowie" },
 ];
 
 export const upcomingEvents = [
   {
     id: 1,
     date: "2026-03-15",
-    title: "Regional Taekwondo Championship",
-    location: "City Sports Arena",
-    description: "All belt levels welcome. Registration closes March 1.",
-    type: "Competition",
+    title: "Regionalne Mistrzostwa Taekwondo",
+    location: "Miejska Hala Sportowa",
+    description: "Zapraszamy wszystkie stopnie. Rejestracja do 1 marca.",
+    type: "Zawody",
   },
   {
     id: 2,
     date: "2026-04-05",
-    title: "Belt Promotion Test",
-    location: "Main Hall",
-    description: "Quarterly belt grading for eligible students.",
-    type: "Grading",
+    title: "Egzamin na pas",
+    location: "Sala Główna",
+    description: "Kwartalny egzamin dla uprawnionych uczniów.",
+    type: "Egzamin",
   },
   {
     id: 3,
     date: "2026-04-18",
-    title: "Spring Training Camp",
-    location: "Main Hall & Training Room B",
-    description: "Intensive 2-day camp focusing on poomsae and sparring.",
-    type: "Camp",
+    title: "Wiosenny obóz treningowy",
+    location: "Sala Główna i Sala treningowa B",
+    description: "Intensywny 2-dniowy obóz skupiony na poomsae i sparingu.",
+    type: "Obóz",
   },
   {
     id: 4,
     date: "2026-05-10",
-    title: "National Open Championship",
-    location: "National Sports Center",
-    description: "Our competition team represents at the national level.",
-    type: "Competition",
+    title: "Otwarte Mistrzostwa Krajowe",
+    location: "Narodowe Centrum Sportu",
+    description: "Nasza kadra zawodnicza reprezentuje klub na szczeblu krajowym.",
+    type: "Zawody",
   },
 ];
 
 export const galleryImages = [
-  { src: "/placeholder.svg", alt: "Training session", caption: "Daily training session" },
-  { src: "/placeholder.svg", alt: "Competition", caption: "Regional Championship 2025" },
-  { src: "/placeholder.svg", alt: "Belt ceremony", caption: "Belt promotion ceremony" },
-  { src: "/placeholder.svg", alt: "Team photo", caption: "Team photo after competition" },
-  { src: "/placeholder.svg", alt: "Kids class", caption: "Kids class in action" },
-  { src: "/placeholder.svg", alt: "Sparring", caption: "Sparring practice" },
-  { src: "/placeholder.svg", alt: "Poomsae", caption: "Poomsae demonstration" },
-  { src: "/placeholder.svg", alt: "Awards", caption: "Award ceremony" },
+  { src: "/placeholder.svg", alt: "Sesja treningowa", caption: "Codzienny trening" },
+  { src: "/placeholder.svg", alt: "Zawody", caption: "Mistrzostwa Regionalne 2025" },
+  { src: "/placeholder.svg", alt: "Ceremonia pasów", caption: "Ceremonia promocji pasów" },
+  { src: "/placeholder.svg", alt: "Zdjęcie drużynowe", caption: "Zdjęcie drużynowe po zawodach" },
+  { src: "/placeholder.svg", alt: "Zajęcia dla dzieci", caption: "Zajęcia dla dzieci w akcji" },
+  { src: "/placeholder.svg", alt: "Sparing", caption: "Trening sparingowy" },
+  { src: "/placeholder.svg", alt: "Poomsae", caption: "Pokaz poomsae" },
+  { src: "/placeholder.svg", alt: "Nagrody", caption: "Ceremonia wręczenia nagród" },
 ];

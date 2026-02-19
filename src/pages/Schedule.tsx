@@ -3,15 +3,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { schedule } from "@/data/siteData";
 
-const days = ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const days = ["Poniedziałek", "Środa", "Czwartek", "Piątek", "Sobota"];
 
 const Schedule = () => (
   <main>
     <section className="bg-primary text-primary-foreground py-20">
       <div className="container text-center">
-        <h1 className="text-5xl md:text-7xl mb-4">SCHEDULE & CLASSES</h1>
+        <h1 className="text-5xl md:text-7xl mb-4">HARMONOGRAM I ZAJĘCIA</h1>
         <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-          Find the right class for you. All levels welcome — first trial session is free!
+          Znajdź odpowiednie zajęcia dla siebie. Zapraszamy na wszystkich poziomach — pierwsza lekcja próbna gratis!
         </p>
       </div>
     </section>
@@ -22,11 +22,11 @@ const Schedule = () => (
         <Table>
           <TableHeader>
             <TableRow className="bg-secondary">
-              <TableHead className="font-bold">Day</TableHead>
-              <TableHead className="font-bold">Time</TableHead>
-              <TableHead className="font-bold">Class</TableHead>
-              <TableHead className="font-bold">Level</TableHead>
-              <TableHead className="font-bold">Location</TableHead>
+              <TableHead className="font-bold">Dzień</TableHead>
+              <TableHead className="font-bold">Godzina</TableHead>
+              <TableHead className="font-bold">Zajęcia</TableHead>
+              <TableHead className="font-bold">Poziom</TableHead>
+              <TableHead className="font-bold">Miejsce</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -72,10 +72,10 @@ const Schedule = () => (
       {/* Class descriptions */}
       <div className="mt-16 grid gap-6 md:grid-cols-2">
         {[
-          { title: "Kids (5–8)", desc: "Fun-focused introduction to Taekwondo fundamentals. Builds coordination, discipline, and confidence through games and basic techniques." },
-          { title: "Juniors (9–14)", desc: "Structured training covering poomsae, sparring basics, and self-defense. Prepares students for belt promotions and competitions." },
-          { title: "Adults (Beginners)", desc: "No experience needed. Learn the foundations of Taekwondo in a supportive environment with a focus on fitness and technique." },
-          { title: "Competition Team", desc: "Intensive training for athletes preparing for regional and national tournaments. Invitation or coach approval required." },
+          { title: "Dzieci (5–8)", desc: "Zabawowe wprowadzenie do podstaw taekwondo. Rozwija koordynację, dyscyplinę i pewność siebie poprzez gry i podstawowe techniki." },
+          { title: "Juniorzy (9–14)", desc: "Ustrukturyzowany trening obejmujący poomsae, podstawy sparingu i samoobronę. Przygotowuje uczniów do egzaminów na pasy i zawodów." },
+          { title: "Dorośli (Początkujący)", desc: "Doświadczenie nie jest wymagane. Poznaj podstawy taekwondo w przyjaznym środowisku z naciskiem na kondycję i technikę." },
+          { title: "Kadra zawodnicza", desc: "Intensywny trening dla sportowców przygotowujących się do turniejów regionalnych i krajowych. Wymagane zaproszenie lub zgoda trenera." },
         ].map((c) => (
           <Card key={c.title}>
             <CardContent className="p-6">

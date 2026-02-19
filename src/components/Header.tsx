@@ -4,13 +4,13 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const links = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/schedule", label: "Schedule" },
-  { to: "/calendar", label: "Calendar" },
-  { to: "/team", label: "Team" },
-  { to: "/gallery", label: "Gallery" },
-  { to: "/contact", label: "Contact" },
+  { to: "/", label: "Strona główna" },
+  { to: "/about", label: "O nas" },
+  { to: "/schedule", label: "Harmonogram" },
+  { to: "/calendar", label: "Kalendarz" },
+  { to: "/team", label: "Zespół" },
+  { to: "/gallery", label: "Galeria" },
+  { to: "/contact", label: "Kontakt" },
 ];
 
 const Header = () => {
@@ -26,7 +26,6 @@ const Header = () => {
           </span>
         </Link>
 
-        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-1">
           {links.map((l) => (
             <Link
@@ -41,13 +40,11 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* Mobile toggle */}
         <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setOpen(!open)}>
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </Button>
       </div>
 
-      {/* Mobile menu */}
       {open && (
         <nav className="md:hidden border-t bg-background pb-4">
           {links.map((l) => (
