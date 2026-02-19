@@ -1,31 +1,87 @@
 export const newsItems = [
   {
     id: 1,
+    slug: "spring-competition-registration",
     date: "2026-02-10",
     title: "Spring Competition Registration Open",
     summary: "Sign up now for the Regional Taekwondo Championship on March 15. All belt levels welcome!",
     tag: "Competition",
+    content: `The Regional Taekwondo Championship is back and bigger than ever! This year's competition will be held on **March 15** at the City Sports Arena, featuring divisions for all belt levels from white to black belt.
+
+**What to expect:**
+- Individual poomsae (forms) competition
+- Sparring matches in weight-class divisions
+- Team poomsae showcase
+- Special demonstrations by our competition squad
+
+Registration is open to all current members in good standing. The entry fee is $35 per event, with a discounted bundle of $55 for two events. Deadline to register is **March 1**.
+
+Our coaching staff will be running extra preparation sessions every Thursday leading up to the event. Make sure to attend if you plan to compete!`,
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
     id: 2,
+    slug: "belt-promotion-ceremony",
     date: "2026-02-05",
     title: "Belt Promotion Ceremony",
     summary: "Congratulations to 12 students who earned their next belt rank last weekend!",
     tag: "Achievement",
+    content: `We are proud to announce that **12 students** successfully passed their belt promotion tests last weekend! The grading panel was led by Master Park Jin-ho with guest examiner Master Yoon from the National Taekwondo Association.
+
+**Promotions awarded:**
+- 3 students promoted to Yellow Belt
+- 4 students promoted to Green Belt
+- 2 students promoted to Blue Belt
+- 2 students promoted to Red Belt
+- 1 student promoted to 1st Dan Black Belt — congratulations to James Thompson!
+
+Each student demonstrated excellent technique, knowledge of their required poomsae, and strong sparring skills. The ceremony concluded with a group photo and refreshments.
+
+The next belt promotion test is scheduled for **April 5**. Speak with your coach about eligibility requirements.`,
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
     id: 3,
+    slug: "new-kids-class-starting",
     date: "2026-01-28",
     title: "New Kids Class Starting",
     summary: "A new beginners class for ages 5-8 starts every Saturday at 10 AM. First session free!",
     tag: "Classes",
+    content: `We're excited to launch a brand-new **Kids Beginners Class** for children aged 5–8! The class runs every Saturday at 10:00 AM in the Main Hall and is led by Coach Maria Santos.
+
+**What the program covers:**
+- Basic Taekwondo stances and movements
+- Age-appropriate stretching and fitness
+- Fun games that build coordination and discipline
+- Introduction to Taekwondo etiquette and Korean terminology
+
+The first session is **completely free** — just bring comfortable clothing and a water bottle. After the trial, monthly membership for kids is $60.
+
+Taekwondo is a fantastic way for young children to build confidence, learn self-discipline, and stay active. Our kids program emphasizes respect, focus, and having fun while learning a lifelong skill.
+
+Contact us to reserve a spot — spaces are limited to 15 students per class to ensure personalized attention.`,
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
     id: 4,
+    slug: "winter-camp-recap",
     date: "2026-01-20",
     title: "Winter Camp Recap",
     summary: "Our 3-day intensive training camp was a huge success with 40+ participants.",
     tag: "Event",
+    content: `Our annual **Winter Training Camp** took place over the long weekend and was a resounding success, with over 40 participants from our club and three visiting clubs.
+
+**Camp highlights:**
+- Day 1: Fundamentals masterclass with Master Park — focusing on perfecting basic kicks and blocks
+- Day 2: Advanced sparring workshop and competition simulation rounds
+- Day 3: Poomsae intensive and a fun team-building obstacle course
+
+Guest instructor **Master Lee Sang-hyun** (5th Dan) from Seoul joined us for a special self-defense seminar that was a huge hit with attendees of all levels.
+
+The camp concluded with an awards ceremony recognizing the Most Improved, Best Attitude, and Top Performer in each age group. Thank you to all the coaches, volunteers, and families who made this event possible.
+
+Stay tuned for details on the **Spring Training Camp** coming in April!`,
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
 ];
 
