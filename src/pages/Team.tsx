@@ -6,7 +6,7 @@ const Team = () => (
   <main>
     <section className="bg-primary text-primary-foreground py-20">
       <div className="container text-center">
-        <h1 className="text-5xl md:text-7xl mb-4">NASZ ZESPÓŁ</h1>
+        <h1 className="text-5xl md:text-7xl mb-4">NASI TRENERZY</h1>
         <p className="text-primary-foreground/70 max-w-2xl mx-auto">
           Poznaj oddanych trenerów, którzy prowadzą naszych sportowców ku doskonałości.
         </p>

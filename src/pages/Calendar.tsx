@@ -4,14 +4,11 @@ const Calendar = () => {
       <h1 className="text-5xl md:text-6xl text-center mb-10">KALENDARZ</h1>
       <div className="rounded-lg overflow-hidden border bg-card shadow-sm">
         <iframe
-          src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=0"
+          src="https://calendar.google.com/calendar/embed?src=6b8a55ec0a76da9f1eb663d6dd221793e41da9bc35c97616a3b5c412c1f680c9%40group.calendar.google.com&ctz=Europe%2FWarsaw"
           className="w-full h-[500px] md:h-[700px] border-0"
           title="Kalendarz zespołu"
         />
       </div>
-      <p className="text-xs text-muted-foreground text-center mt-4">
-        Zamień ID kalendarza w adresie URL na swój własny Kalendarz Google, aby wyświetlać własne wydarzenia.
-      </p>
     </main>
   );
 };

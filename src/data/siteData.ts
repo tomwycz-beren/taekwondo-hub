@@ -1,10 +1,10 @@
 export const newsItems = [
   {
     id: 1,
-    slug: "zapisy-na-wiosenne-zawody",
-    date: "2026-02-10",
-    title: "Zapisy na wiosenne zawody",
-    summary: "Zapisz się na Regionalne Mistrzostwa Taekwondo 15 marca. Zapraszamy wszystkie stopnie!",
+    slug: "Warszawska Olimpiada Młodzieży",
+    date: "2026-02-19",
+    title: "Warszawska Olimpiada Młodzieży",
+    summary: "01.03.2026 - Warszawska Olimpiada Młodzieży - AWF WARSZAWA",
     tag: "Zawody",
     content: `Regionalne Mistrzostwa Taekwondo wracają i będą większe niż kiedykolwiek! Tegoroczne zawody odbędą się **15 marca** w Miejskiej Hali Sportowej, z podziałem na wszystkie stopnie od białego do czarnego pasa.
 
@@ -86,47 +86,46 @@ Obóz zakończył się ceremonią wręczenia nagród w kategoriach: Największy 
 ];
 
 export const schedule = [
-  { day: "Poniedziałek", time: "16:00 – 17:00", class: "Dzieci (5–8)", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Poniedziałek", time: "17:30 – 19:00", class: "Juniorzy (9–14)", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Poniedziałek", time: "19:30 – 21:00", class: "Dorośli", level: "Początkujący", location: "Sala Główna" },
-  { day: "Środa", time: "16:00 – 17:00", class: "Dzieci (5–8)", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Środa", time: "17:30 – 19:00", class: "Juniorzy (9–14)", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Środa", time: "19:30 – 21:00", class: "Dorośli", level: "Zaawansowani", location: "Sala Główna" },
-  { day: "Czwartek", time: "18:00 – 19:30", class: "Kadra zawodnicza", level: "Zaawansowani", location: "Sala treningowa B" },
-  { day: "Piątek", time: "16:00 – 17:00", class: "Dzieci (5–8)", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Piątek", time: "17:30 – 19:00", class: "Juniorzy (9–14)", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Piątek", time: "19:30 – 21:00", class: "Dorośli", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Sobota", time: "10:00 – 11:30", class: "Trening otwarty", level: "Wszystkie poziomy", location: "Sala Główna" },
-  { day: "Sobota", time: "12:00 – 13:30", class: "Ćwiczenia poomsae", level: "Średniozaawansowani+", location: "Sala treningowa B" },
+  { day: "Poniedziałek", time: "16:45 – 17:30", class: "Dzieci (5–8)", level: "Początkujący", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Poniedziałek", time: "17:30 – 18:30", class: "Młodzicy (9–11)", level: "Średniozaawansowani", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Poniedziałek", time: "18:30 – 20:00", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Poniedziałek", time: "20:00 – 21:30", class: "Senior", level: "Wszystkie poziomy", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Wtorek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Środa", time: "16:45 – 17:30", class: "Dzieci (5–8)", level: "Początkujący", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Środa", time: "17:30 – 18:30", class: "Młodzicy (9–11)", level: "Średniozaawansowani", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Środa", time: "18:30 – 20:00", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Środa", time: "20:00 – 21:30", class: "Senior", level: "Wszystkie poziomy", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Czwartek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
+  { day: "Piątek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" }
 ];
 
 export const coaches = [
   {
-    name: "Mistrz Park Jin-ho",
+    name: "Paweł Nałęcz",
     role: "Główny trener",
-    belt: "6 Dan czarny pas",
-    bio: "Ponad 25 lat doświadczenia w nauczaniu taekwondo. Były członek kadry narodowej i wielokrotny medalista mistrzostw.",
+    belt: "4 Dan",
+    bio: "",
     image: "/placeholder.svg",
   },
   {
-    name: "Sarah Kim",
-    role: "Asystentka trenera",
-    belt: "4 Dan czarny pas",
-    bio: "Specjalizuje się w poomsae i szkoleniu młodzieży. Certyfikowana sędzia World Taekwondo z ponad 10-letnim doświadczeniem trenerskim.",
+    name: "Alicja Laskowska",
+    role: "Trener",
+    belt: "3 Dan",
+    bio: "S",
     image: "/placeholder.svg",
   },
   {
-    name: "David Lee",
-    role: "Trener kadry zawodniczej",
-    belt: "3 Dan czarny pas",
-    bio: "Skupia się na technice sparingowej i przygotowaniu do zawodów. Poprowadził nasz zespół do 15 medali regionalnych w ostatnim sezonie.",
+    name: "Wiktor",
+    role: "Trener",
+    belt: "1 Dan czarny pas",
+    bio: "",
     image: "/placeholder.svg",
   },
   {
-    name: "Maria Santos",
-    role: "Trenerka programu dziecięcego",
-    belt: "2 Dan czarny pas",
-    bio: "Pasjonuje się wprowadzaniem młodych uczniów w świat sztuk walki. Łączy zabawę z podstawowym treningiem taekwondo.",
+    name: "Dominik",
+    role: "Trenerka",
+    belt: "2 Dan  ",
+    bio: "Prowadzi zajęcia w sekcji Opinogóra.",
     image: "/placeholder.svg",
   },
 ];

@@ -71,7 +71,7 @@ const Contact = () => {
 
           <div className="space-y-6">
             {[
-              { icon: MapPin, title: "Adres", text: "Miejska Hala Sportowa (sala na 1 piętrze)\n17 Stycznia 60B, 06-400 Ciechanów " },
+              { icon: MapPin, title: "Adres", text: "Hala Widowiskowo-Sportowa (sala na 1 piętrze)\n17 Stycznia 60B, 06-400 Ciechanów " },
               { icon: Phone, title: "Telefon", text: "+48 515 132 442" },
               { icon: Mail, title: "Email", text: "wtf.promyk@poczta.fm" },
             ].map((item) => (

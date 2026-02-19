@@ -18,7 +18,7 @@ const Index = () => {
         />
         <div className="absolute inset-0 bg-primary/70" />
         <div className="relative z-10 text-center text-primary-foreground container">
-          <h1 className="text-6xl md:text-8xl mb-4">TTKF PROMYK TAEKWONDO OLIMPIJSKIE CIECHANÓW</h1>
+          <h1 className="text-6xl md:text-8xl mb-4">TKKF PROMYK TAEKWONDO OLIMPIJSKIE CIECHANÓW</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-primary-foreground/80">
             Dołącz do naszej rodziny taekwondo — kształtujemy mistrzów na macie i poza nią od 1988 roku.
           </p>
@@ -29,9 +29,9 @@ const Index = () => {
       <section className="container py-16">
         <div className="grid gap-6 md:grid-cols-3">
           {[
-            { icon: CalendarDays, title: "Zajęcia i harmonogram", desc: "Znajdź odpowiednie zajęcia dla swojego dziecka.", to: "/schedule" },
-            { icon: Users, title: "Poznaj zespół", desc: "Nasi doświadczeni trenerzy i utalentowani sportowcy.", to: "/team" },
-            { icon: Trophy, title: "Osiągnięcia", desc: "Świętujemy nasze medale i wyniki zawodów.", to: "/gallery" },
+            { icon: CalendarDays, title: "Zajęcia i harmonogram", desc: "Znajdź odpowiednie zajęcia dla swojego dziecka..", to: "/schedule" },
+            { icon: Users, title: "Poznaj zespół", desc: "Nasi doświadczeni trenerzy..", to: "/team" },
+            { icon: Trophy, title: "Osiągnięcia", desc: "Świętujemy nasze medale i wyniki zawodów..", to: "/gallery" },
           ].map((item) => (
             <Card key={item.title} className="group hover:shadow-lg transition-shadow">
               <CardContent className="p-6 flex flex-col items-center text-center">
