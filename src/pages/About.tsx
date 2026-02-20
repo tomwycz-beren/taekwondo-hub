@@ -1,3 +1,8 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Trophy } from "lucide-react";
+import { achievements } from "@/data/siteData";
+
 const About = () => (
   <main>
     <section className="bg-primary text-primary-foreground py-20">
@@ -41,6 +46,35 @@ const About = () => (
         ))}
       </ul>
     </section>
+	
+	<section className="bg-secondary py-16">
+      <div className="container">
+        <div className="flex items-center gap-3 mb-8">
+          <Trophy className="h-8 w-8 text-accent" />
+          <h2 className="text-4xl">OSIĄGNIĘCIA</h2>
+        </div>
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead className="font-bold">Rok</TableHead>
+              <TableHead className="font-bold">Wydarzenie</TableHead>
+              <TableHead className="font-bold">Wynik</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {achievements.map((a, i) => (
+              <TableRow key={i}>
+                <TableCell className="font-medium">{a.year}</TableCell>
+                <TableCell>{a.event}</TableCell>
+                <TableCell className="text-accent font-medium">{a.result}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </div>
+    </section>
+	
+	
   </main>
 );
 

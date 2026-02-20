@@ -177,7 +177,7 @@ export const upcomingEvents = [
 ];
 
 export const galleryImages = [
-  { src: "/placeholder.svg", alt: "Sesja treningowa", caption: "Codzienny trening" },
+  { src: "assets/Karolina.jpg", alt: "Karolina w Reprezentacji Kraju", caption: "Karolina w Reprezentacji Kraju" },
   { src: "/placeholder.svg", alt: "Zawody", caption: "Mistrzostwa Regionalne 2025" },
   { src: "/placeholder.svg", alt: "Ceremonia pasów", caption: "Ceremonia promocji pasów" },
   { src: "/placeholder.svg", alt: "Zdjęcie drużynowe", caption: "Zdjęcie drużynowe po zawodach" },
