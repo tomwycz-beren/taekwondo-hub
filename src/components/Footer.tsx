@@ -7,29 +7,28 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Mail, Phone } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import TKKF_Logo_new from "@/assets/promyk_logo_new.jpg";
 
 const Footer = () => (
   <footer className="border-t bg-primary text-primary-foreground">
   
     <div className="container py-12">
-      <div className="grid gap-2 md:gap-1 md:grid-cols-3">
+      <div className="grid gap-2 md:gap-1 md:grid-cols-2">
 	  
         <div>
           <h3 className="text-2xl mb-3">Klub TKKF "Promyk" Ciechanów</h3>
-          <p className="text-primary-foreground/70 text-sm leading-relaxed">
+          
+		  <img 
+			src={TKKF_Logo_new}
+			alt="TKKF Promyk Logo"
+			className="w-32 h-auto mb-4 mx-auto md:mx-0" 
+			/>
+			<p className="text-primary-foreground/70 text-sm leading-relaxed">
             Budujemy dyscyplinę, pewność siebie i siłę poprzez sztukę taekwondo od 2005 roku.
           </p>
         </div>
 		
-        <div>
-          <h4 className="text-lg mb-3">Szybkie linki</h4>
-          <div className="flex flex-col gap-2 text-sm text-primary-foreground/70">
-            <Link to="/schedule" className="hover:text-primary-foreground transition-colors">Harmonogram</Link>
-            <Link to="/team" className="hover:text-primary-foreground transition-colors">Nasz zespół</Link>
-            <Link to="/gallery" className="hover:text-primary-foreground transition-colors">Galeria</Link>
-            <Link to="/contact" className="hover:text-primary-foreground transition-colors">Kontakt</Link>
-          </div>
-        </div>
+        
 
           
 

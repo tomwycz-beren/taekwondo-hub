@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const links = [
   { to: "/", label: "Strona główna" },
-  { to: "/about", label: "O nas" },
+  { to: "/about", label: "O klubie" },
   { to: "/schedule", label: "Harmonogram" },
   { to: "/calendar", label: "Kalendarz" },
   { to: "/team", label: "Zespół" },
@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <span className="text-3xl font-bold tracking-wider text-accent" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-            🥋 TKD TEAM
+            🥋 TKKF "PROMYK" CIECHANÓW 
           </span>
         </Link>
 

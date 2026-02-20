@@ -25,7 +25,7 @@ const Contact = () => {
       </section>
 
       <section className="container py-10">
-        <div className="grid gap-2 md:grid-cols-2">
+        <div className="grid gap-2 md:grid-cols-1">
           
 
           <div className="space-y-4">

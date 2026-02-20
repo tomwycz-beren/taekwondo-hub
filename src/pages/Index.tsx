@@ -5,8 +5,11 @@ import { Badge } from "@/components/ui/badge";
 import { CalendarDays, Users, Trophy, ArrowRight } from "lucide-react";
 import { newsItems } from "@/data/siteData";
 import heroBanner from "@/assets/hero-banner.jpg";
+import { useAssetsMap } from '@/hooks/useAssetsMap';  // <-- DODANE
+
 
 const Index = () => {
+	const assetsMap = useAssetsMap();
   return (
     <main>
       {/* Hero */}
@@ -47,28 +50,41 @@ const Index = () => {
         </div>
       </section>
 
-      {/* News Feed */}
-      <section className="py-16">
-        <div className="container">
-          <h2 className="text-4xl md:text-5xl text-center mb-10">AKTUALNOŚCI</h2>
-          <div className="grid gap-4 md:grid-cols-2">
-            {newsItems.map((item) => (
-              <Link key={item.id} to={`/news/${item.slug}`} className="block group">
-                <Card className="h-full transition-shadow group-hover:shadow-lg">
-                  <CardContent className="p-6">
-                    <div className="flex items-center gap-3 mb-2">
-                      <Badge variant="secondary" className="bg-accent/10 text-accent border-0">{item.tag}</Badge>
-                      <span className="text-xs text-muted-foreground">{item.date}</span>
-                    </div>
-                    <h3 className="text-xl mb-1 group-hover:text-accent transition-colors">{item.title}</h3>
-                    <p className="text-sm text-muted-foreground">{item.summary}</p>
-                  </CardContent>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+{/* News Feed */}
+<section className="py-16">
+  <div className="container">
+    <h2 className="text-4xl md:text-5xl text-center mb-10">AKTUALNOŚCI</h2>
+    <div className="grid gap-4 md:grid-cols-2">
+      {newsItems.map((item) => (
+        <Link key={item.id} to={`/news/${item.slug}`} className="block group">
+          <Card className="h-full transition-shadow group-hover:shadow-lg">
+            <CardContent className="p-6">
+              {/* <-- DODAJ TUTAJ OBRAZ */}
+              {item.images[0] && (
+                <img 
+                  src={assetsMap[item.images[0]] || 'nagrody_prezedent_2026.jpg'}
+                  alt={item.title}
+                  className="w-full h-48 object-cover rounded mb-4"
+                />
+              )}
+              {/* KONIEC DODATKU */}
+              
+              <div className="flex items-center gap-3 mb-2">
+                <Badge variant="secondary" className="bg-accent/10 text-accent border-0">
+                  {item.tag}
+                </Badge>
+                <span className="text-xs text-muted-foreground">{item.date}</span>
+              </div>
+              <h3 className="text-xl mb-1 group-hover:text-accent transition-colors">{item.title}</h3>
+              <p className="text-sm text-muted-foreground">{item.summary}</p>
+            </CardContent>
+          </Card>
+        </Link>
+      ))}
+    </div>
+  </div>
+</section>
+
     </main>
   );
 };
