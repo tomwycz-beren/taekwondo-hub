@@ -1,6 +1,14 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { coaches } from "@/data/siteData";
+import React from 'react';
+import AlicjaImg from '@/assets/Alicja_Laskowska.jpg';
+
+const assetsMap = {                                   
+  'assets/Alicja_Laskowska.jpg': AlicjaImg,
+  //'assets/PawelNacz.jpg': PawelImg,
+  // 'assets/Wiktor.jpg': WiktorImg,
+} as Record<string, string>;
 
 const Team = () => (
   <main>
@@ -19,7 +27,7 @@ const Team = () => (
           <Card key={coach.name} className="overflow-hidden">
             <CardContent className="p-0 flex flex-col sm:flex-row">
               <div className="sm:w-40 h-48 sm:h-auto bg-secondary flex items-center justify-center shrink-0">
-                <img src={coach.image} alt={coach.name} className="w-24 h-24 rounded-full object-cover" />
+                <img src={assetsMap[coach.image]} alt={coach.name} className="w-24 h-24 rounded-full object-cover" />
               </div>
               <div className="p-6 flex-1">
                 <h3 className="text-2xl mb-1">{coach.name}</h3>

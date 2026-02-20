@@ -1,3 +1,5 @@
+
+
 export const newsItems = [
   {
     id: 1,
@@ -86,17 +88,17 @@ Obóz zakończył się ceremonią wręczenia nagród w kategoriach: Największy 
 ];
 
 export const schedule = [
-  { day: "Poniedziałek", time: "16:45 – 17:30", class: "Dzieci (5–8)", level: "Początkujący", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Poniedziałek", time: "17:30 – 18:30", class: "Młodzicy (9–11)", level: "Średniozaawansowani", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Poniedziałek", time: "18:30 – 20:00", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Poniedziałek", time: "20:00 – 21:30", class: "Senior", level: "Wszystkie poziomy", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Wtorek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Środa", time: "16:45 – 17:30", class: "Dzieci (5–8)", level: "Początkujący", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Środa", time: "17:30 – 18:30", class: "Młodzicy (9–11)", level: "Średniozaawansowani", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Środa", time: "18:30 – 20:00", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Środa", time: "20:00 – 21:30", class: "Senior", level: "Wszystkie poziomy", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Czwartek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" },
-  { day: "Piątek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Widowiskowo-Sportowa" }
+  { day: "Poniedziałek", time: "16:45 – 17:30", class: "Dzieci (5–8)", level: "Początkujący", location: "Hala Sportowa Ciechanów" },
+  { day: "Poniedziałek", time: "17:30 – 18:30", class: "Młodzicy (9–11)", level: "Średniozaawansowani", location: "Hala Sportowa Ciechanów" },
+  { day: "Poniedziałek", time: "18:30 – 20:00", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Sportowa Ciechanów" },
+  { day: "Poniedziałek", time: "20:00 – 21:30", class: "Senior", level: "Wszystkie poziomy", location: "Hala Sportowa Ciechanów" },
+  { day: "Wtorek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Sportowa Ciechanów" },
+  { day: "Środa", time: "16:45 – 17:30", class: "Dzieci (5–8)", level: "Początkujący", location: "Hala Sportowa Ciechanów" },
+  { day: "Środa", time: "17:30 – 18:30", class: "Młodzicy (9–11)", level: "Średniozaawansowani", location: "Hala Sportowa Ciechanów" },
+  { day: "Środa", time: "18:30 – 20:00", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Sportowa Ciechanów" },
+  { day: "Środa", time: "20:00 – 21:30", class: "Senior", level: "Wszystkie poziomy", location: "Hala Sportowa Ciechanów" },
+  { day: "Czwartek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Sportowa Ciechanów" },
+  { day: "Piątek", time: "17:00 – 18:30", class: "Młodzież/zawodnicy", level: "Zaawansowany", location: "Hala Sportowa Ciechanów" }
 ];
 
 export const coaches = [
@@ -111,8 +113,8 @@ export const coaches = [
     name: "Alicja Laskowska",
     role: "Trener",
     belt: "3 Dan",
-    bio: "S",
-    image: "/placeholder.svg",
+    bio: "Alicja w krainie pacek",
+    image: "assets/Alicja_Laskowska.jpg",
   },
   {
     name: "Wiktor",
@@ -122,11 +124,11 @@ export const coaches = [
     image: "/placeholder.svg",
   },
   {
-    name: "Dominik",
-    role: "Trenerka",
+    name: "Damian",
+    role: "Trener",
     belt: "2 Dan  ",
     bio: "Prowadzi zajęcia w sekcji Opinogóra.",
-    image: "/placeholder.svg",
+    image: "{Alicja_Laskowska}",
   },
 ];
 

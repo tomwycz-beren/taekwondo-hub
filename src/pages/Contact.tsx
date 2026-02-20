@@ -11,15 +11,7 @@ const Contact = () => {
   const { toast } = useToast();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.name || !form.email || !form.message) {
-      toast({ title: "Proszę wypełnić wszystkie pola", variant: "destructive" });
-      return;
-    }
-    toast({ title: "Wiadomość wysłana!", description: "Odezwiemy się jak najszybciej." });
-    setForm({ name: "", email: "", message: "" });
-  };
+
 
   return (
     <main>
@@ -32,48 +24,15 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="container py-16">
-        <div className="grid gap-12 md:grid-cols-2">
-          <form onSubmit={handleSubmit} className="space-y-5">
-            <div>
-              <Label htmlFor="name">Imię i nazwisko</Label>
-              <Input
-                id="name"
-                placeholder="Twoje imię"
-                value={form.name}
-                onChange={(e) => setForm({ ...form, name: e.target.value })}
-              />
-            </div>
-            <div>
-              <Label htmlFor="email">Email</Label>
-              <Input
-                id="email"
-                type="email"
-                placeholder="ty@example.com"
-                value={form.email}
-                onChange={(e) => setForm({ ...form, email: e.target.value })}
-              />
-            </div>
-            <div>
-              <Label htmlFor="message">Wiadomość</Label>
-              <Textarea
-                id="message"
-                placeholder="W czym możemy pomóc?"
-                rows={5}
-                value={form.message}
-                onChange={(e) => setForm({ ...form, message: e.target.value })}
-              />
-            </div>
-            <Button type="submit" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 w-full">
-              Wyślij wiadomość
-            </Button>
-          </form>
+      <section className="container py-10">
+        <div className="grid gap-2 md:grid-cols-2">
+          
 
-          <div className="space-y-6">
+          <div className="space-y-4">
             {[
-              { icon: MapPin, title: "Adres", text: "Hala Widowiskowo-Sportowa (sala na 1 piętrze)\n17 Stycznia 60B, 06-400 Ciechanów " },
+              { icon: MapPin, title: "Adres", text: "Hala Widowiskowo-Sportowa (sala na 1 piętrze)\n17 Stycznia 60B, 06-400 Ciechanów" },
               { icon: Phone, title: "Telefon", text: "+48 515 132 442" },
-              { icon: Mail, title: "Email", text: "wtf.promyk@poczta.fm" },
+              { icon: Mail, title: "Email", text: "tkkfpromykwp@op.pl" },
             ].map((item) => (
               <Card key={item.title}>
                 <CardContent className="p-4 flex gap-4 items-start">

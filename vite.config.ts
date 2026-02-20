@@ -1,18 +1,20 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
+import react from '@vitejs/plugin-react-swc';
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-base: '/taekwondo-hub/',  // nazwa repo!
+  base: '/taekwondo-hub/',
+  optimizeDeps: {
+    include: ['clsx', 'tailwind-merge'],
+  },
+  // reszta Twoich opcji:
   server: {
     host: "::",
     port: 8080,
-    hmr: {
-      overlay: false,
-    },
+    hmr: { overlay: false },
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
@@ -21,3 +23,4 @@ base: '/taekwondo-hub/',  // nazwa repo!
     },
   },
 }));
+
